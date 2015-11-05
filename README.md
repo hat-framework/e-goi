@@ -18,8 +18,12 @@ FOLLOW PACKAGES:
 
 ## To install
 
-You can get it from [Composer](More information? http://getcomposer.org/)
+You can clone this repositorie:
 
+``` git clone https://github.com/twbs/bootstrap.git. ```
+
+
+You can get it from [Composer](More information? http://getcomposer.org/)
 
 ```  composer require hat-framework/e-goi ```
 
@@ -32,6 +36,10 @@ or add this to your composer.json, and ```composer update```
     }
 }
 ```
+
+You can download files (but remember, in this case, you shoud install or download zendframework dependencies)
+
+``` https://github.com/hat-framework/e-goi/archive/v0.3.4.zip ```
 
 ## Usage
 
