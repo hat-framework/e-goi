@@ -1,24 +1,24 @@
 {
-    "name": "alexndreazevedo/egoi-api-php",
-    "description": "Optimized PHP API of E-goi",
-    "keywords": ["alexndreazevedo", "e-goi", "marketing", "mailing", "sms", "voice", "social", "media", "campaigns"],
+    "name": "hat-framework/e-goi",
+    "description": "PHP API of E-goi",
+    "keywords": ["hat-framework", "e-goi", "marketing", "mailing", "sms", "voice", "social", "media", "campaigns", "E-GOI integration PHP"],
     "type": "library",
-    "homepage": "https://github.com/alexndreazevedo/egoi-api-php",
+    "homepage": "https://github.com/hat-framework/e-goi",
     "license": "Apache2",
     "authors": [
         {
-            "name": "Alexandre Azevedo",
-            "homepage": "https://github.com/alexndreazevedo/egoi-api-php/contributors"
+            "name": "Thompson Filgueiras",
+            "homepage": "https://github.com/hat-framework/e-goi/contributors"
         }
     ],
     "require": {
         "php": ">=5.3.0",
         "ext-curl": "*",
         "ext-json": "*",
-		"zendframework/zend-json": "2.3.*@dev",
-		"zendframework/zendrest": "*",
-		"zendframework/zend-soap": "2.3.*@dev",
-		"zendframework/zend-xmlrpc": "2.3.*@dev"
+        "zendframework/zend-json": "2.3.*@dev",
+        "zendframework/zendrest": "*",
+        "zendframework/zend-soap": "2.3.*@dev",
+        "zendframework/zend-xmlrpc": "2.3.*@dev"
     },
     "autoload": {
         "classmap": ["src"],
