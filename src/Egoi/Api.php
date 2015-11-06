@@ -6,7 +6,7 @@ use Egoi\Api\RestImpl;
 use Egoi\Api\SoapImpl;
 use Egoi\Api\XmlRpcImpl;
 
-abstract class EgoiApi {
+abstract class Api {
 
     abstract public function addExtraField($map);
 

@@ -7,35 +7,35 @@ use Zend\XmlRpc\Client;
 
 define('XmlRpcUrl', 'http://api.e-goi.com/v2/xmlrpc.php');
 	
-class EgoiApiXmlRpcImpl extends Api {
+class XmlRpcImpl extends Api {
 
     var $rpc;
 
     function __construct() {
-            $this->rpc = new Zend_XmlRpc_Client(XmlRpcUrl);
+        $this->rpc = new Client(XmlRpcUrl);
     }
 
     function addExtraField($map) {
-            return $this->rpc->call(__FUNCTION__, array($map));
+        return $this->rpc->call(__FUNCTION__, array($map));
     }
 
     function addSubscriber($map) {
-            return $this->rpc->call(__FUNCTION__, array($map));
+        return $this->rpc->call(__FUNCTION__, array($map));
     }
 
 
     function addSubscriberBulk($map) {
-            return $this->rpc->call(__FUNCTION__, array($map));
+        return $this->rpc->call(__FUNCTION__, array($map));
     }
 
 
     function checklogin($map) {
-            return $this->rpc->call(__FUNCTION__, array($map));
+        return $this->rpc->call(__FUNCTION__, array($map));
     }
 
 
     function createCampaignEmail($map) {
-            return $this->rpc->call(__FUNCTION__, array($map));
+        return $this->rpc->call(__FUNCTION__, array($map));
     }
 
 
