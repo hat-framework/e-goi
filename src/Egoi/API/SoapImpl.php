@@ -18,6 +18,10 @@ class SoapImpl extends Api {
         $fn = __FUNCTION__;
         return $this->rpc->$fn($map);
     }
+    function getExtraFields($map) {
+        $fn = __FUNCTION__;
+        return $this->rpc->$fn($map);
+    }
     
     function addSubscriber($map) {
         $fn = __FUNCTION__;

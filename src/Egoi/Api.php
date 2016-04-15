@@ -79,5 +79,7 @@ abstract class Api {
     abstract public function attachTag($map);
 
     abstract public function detachTag($map);
+    
+    abstract public function getExtraFields($map);
 
 }
